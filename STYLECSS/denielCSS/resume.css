@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Climate Crisis;
+}
+body{
+height: 100%;
+width: 100%;
+}
+.home{
+height: 100%;
+width: 100%;
+}
+
+.sidebar{
+float: left;
+width: 25%;
+height: 100%;
+padding: 20px;
+background-color: #273746;
+z-index: 1300;
+}
+.sidebar-contents{
+width: 100%;
+height: 100%;
+}
+
+.sidebar-first-col{
+width: 100%;
+height: 250px;
+display: grid;
+place-items: center;
+}
+.profile-image{
+height: 150px;
+width: 150px;
+}
+.profile-image img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+object-fit: cover;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.profile-name{
+text-align: center;
+}
+.profile-name h1{
+font-size: 25px;
+color: #fff;
+text-transform: uppercase;
+}
+
+.profile-name h3{
+color: #D0D3D4;
+    text-transform: uppercase;
+font-size: 15px;
+}
+
+.sidebar-second-col{
+position: relative;
+width: 100%;
+margin-top: 20px;
+}
+.contact-info{
+padding: 20px 20px;
+}
+.contact-info h1{
+    text-transform: uppercase;
+color: #fff;
+font-size: 20px;
+padding: 10px 0px;
+}
+.contact-info ul li{
+text-decoration: none;
+list-style: none;
+padding-top: 10px;
+color: #fff;
+}
+
+.contact-info ul li i{
+font-size: 20px;
+padding: 0px 10px;
+color: #1ABC9C;
+}
+.sidebar-second-col::after{
+position: absolute;
+content: '';
+height: 1px;
+width: 70%;
+background-color: #D0D3D4;
+right: 15%;
+top: 0;
+}
+
+.sidebar-third-col{
+width: 100%;
+height: 440px;
+}
+.Education{
+width: 100%;
+height: 100%;
+padding: 10px 20px;
+position: relative;
+}
+
+.Education-timeline{
+position: relative;
+margin: 10px 10px;
+}
+
+.Education-timeline .box{
+position: relative;
+padding: 10px;
+border: 1px solid #17202A;
+background-color: #17202A;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.Education h1{
+    text-transform: uppercase;
+color: #fff;
+font-size: 20px;
+padding: 20px 0px;
+}
+.Education-timeline h2{
+color: #1ABC9C;
+font-size: 15px;
+}
+.Education-timeline p{
+font-size: 17px;
+color: #fff;
+}
+
+.sidebar-footer-col{
+width: 100%;
+}
+.language{
+width: 100%;
+padding: 20px;
+}
+.language h1{
+font-size: 20px;
+color: #fff;
+padding: 10px 0px;
+}
+.container{
+width: 100%;
+margin: 20px 0px;
+background-color: #17202A;
+border-radius: 50px;
+height: 24px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.progressBisaya{
+height: 100%;
+width: 100%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+}
+.progressTagalog{
+height: 100%;
+width: 90%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+}
+.progressENGLISH{
+height: 100%;
+width: 70%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+}
+.main-col{
+float: left;
+width: 75%;
+padding: 10px 30px;
+}
+.main-col-contents{
+width: 100%;
+height: 100%;
+}
+.main-col-contents h1{
+padding: 20px 0px;
+color: #1ABC9C;
+}
+.main-second-col{
+width: 100%;
+}
+
+.main-second-col .experiences{
+width: 100%;
+display: flex;
+}
+.experiences .left-col{
+height: 100%;
+width: 20%;
+}
+.experiences{
+padding-bottom: 20px;
+}
+
+.experiences h3{
+padding: 10px 10px;
+}
+.left-col h3{
+color: #1ABC9C;
+}
+
+.container-skills{
+width: 100%;
+margin: 20px 0px;
+background-color: #E5E7E9;
+border-radius: 50px;
+height: 24px;
+overflow: hidden;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.html{
+height: 100%;
+width: 90%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+font-weight: 600;
+}
+.css{
+height: 100%;
+width: 90%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+font-weight: 600;
+}
+.c{
+height: 100%;
+width: 70%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+font-weight: 600;
+}
+.cpp{
+height: 100%;
+width: 30%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+font-weight: 600;
+}
+.javascript{
+height: 100%;
+width: 70%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+font-weight: 600;
+}
+.vb{
+height: 100%;
+width: 60%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+font-weight: 600;
+}
+.cs{
+height: 100%;
+width: 40%;
+background-color: #1ABC9C;
+display: flex;
+border-radius: 50px;
+justify-content: space-between;
+padding: 0px 10px;
+color: #17202A;
+font-weight: 600;
+}
+.footer{
+padding-top: 50px;
+}
+.footer i{
+padding-right: 10px;
+font-size: 25px;
+color: #1ABC9C;
+}
+.footer ul{
+display: flex;
+justify-content: space-evenly;
+padding: 0px 20px
+}
+.footer ul li{
+font-size: 20px;
+list-style: none;
+font-weight: 600;
+}

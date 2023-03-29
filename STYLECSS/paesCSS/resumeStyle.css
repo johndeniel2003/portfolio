@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins:wght@400;500;600&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Poppins;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+    background-color: #212121;
+}
+
+.resume{
+    height: auto;
+    width: 100%;
+}
+.resume h1{
+    color: #F5B7B1;
+}
+.resume .upper-contents{
+    height: 500px;
+    width: 100%;
+    background-color: #FADBD8 ;
+}
+.img-area{
+height: 100%;
+width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.img-area h1{
+    font-size: 60px;
+    font-family: Fasthand;
+}
+.img-area p{
+    font-weight: 600;
+}
+.img-area::after{
+position: absolute;
+content: '';
+height: 50%;
+width: 100%;
+background-color: #fff;
+top: 0;
+}
+.img{
+    height: 250px;
+    width: 250px;
+    z-index: 1000;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    border: 5px solid #FADBD8 ;
+    border-radius: 50%;
+    object-fit: cover;
+    background: linear-gradient(135deg, #ffffff 20%, transparent 20%, transparent 80%, #ffffff 80%),linear-gradient(45deg, #ffffff 40%, #d2bfd0 40%, #d2bfd0 60%, #d2bfd0 60%, #ffffff 60%) , linear-gradient(135deg, #ffffff 20%, #d2bfd0 20%, #d2bfd0 80%, #ffffff 80%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1
+}
+
+
+/* LOWER COL */
+
+.lower-contents{
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+}
+.lower-contents .sidebar, .lower-contents .mainbar{
+    padding: 10px 20px;
+}
+
+.box{
+    padding: 10px 10px;
+}
+.language ul li{
+    list-style: none;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+/* mainbar */
+.job{
+    padding-top: 20px;
+}
+span{
+    font-weight: 600;
+}
+
+.education ul li{
+   padding-top: 20px;
+}

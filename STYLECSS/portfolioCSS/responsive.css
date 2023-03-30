@@ -1,0 +1,621 @@
+/*RESPONSIVENESS OF THIS WEBPAGE*/
+
+@media all and (max-width: 1289px) {
+
+    /*NAVBAR*/
+    label {
+        right: 10px;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+
+    /*LANDING PAGE*/
+
+
+    .more {
+        height: 100vh;
+        width: 100%;
+        padding: 0px 30px;
+        justify-content: center;
+    }
+
+    .our-img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .landing-logo {
+        text-align: center;
+    }
+
+    .aboutus-descript p {
+        font-size: 15px;
+    }
+
+    .landing-page::after {
+        left: -30%;
+    }
+
+
+    /*OUR TEAM AREA*/
+    .head h1 {
+        align-self: center;
+    }
+
+    .aboutme-con {
+        flex-wrap: wrap;
+    }
+
+    .head img {
+        width: 500px;
+    }
+
+    .box-card {
+        margin: 20px 20px;
+    }
+
+    .box-card ul li i{
+color: var(--secondary-color);
+}
+
+    .socialMedia svg{
+right: -10%;
+bottom: -30%;
+}
+    .box-card {
+        height: 500px;
+        width: 400px;
+    }
+
+    .img-overlay {
+        height: 110px;
+        width: 110px;
+        position: absolute;
+        left: -15%;
+        top: 15%;
+    }
+
+    .overlay-box {
+        position: relative;
+    }
+
+    .overlay-box h1 {
+        position: absolute;
+        top: -20%;
+        font-size: 18px;
+        padding: 10px 20px;
+        color: #212121;
+        right: 0;
+    }
+
+    .overlay-box #job {
+        padding-top: 20px;
+    }
+
+    /*OUR WORK AREA*/
+
+    .my-activity .lower-col button {
+        bottom: -60%;
+
+    }
+
+    .header img {
+        height: 500px;
+        width: 500px;
+        z-index: 30;
+    }
+
+    .activities h5 {
+        position: absolute;
+        top: -1%;
+        background-color: var(--primary-color);
+        padding: 10px 10px;
+        z-index: 1100;
+        left: 0;
+        color: var(--secondary-color);
+        font-size: 25px;
+    }
+
+    .header h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .activity {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        width: 100%;
+        height: 100%;
+        padding: 30px 20px;
+    }
+
+    .img-activity {
+        height: 350px;
+        width: 400px;
+    }
+
+    .activities {
+        flex-wrap: wrap;
+    }
+
+    .my-activity {
+        position: relative;
+    }
+
+    .lower-col p {
+        position: absolute;
+        top: -250%;
+        background-color: var(--primary-color);
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 5px;
+        z-index: 1200;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    .box-act {
+
+        margin-bottom: 20px;
+    }
+
+    .box-tribute {
+        margin-top: 20px;
+    }
+
+    .over-lap h1 {
+        font-size: 45px;
+    }
+
+
+    /*FOOTER*/
+    .contacts .input-box {
+        width: 250px;
+    }
+
+}
+
+
+
+@media all and (max-width: 932px) {
+
+    /*LANDING PAGE AREA*/
+    .landing-page::after {
+        left: -35%;
+    }
+
+    .landing-logo h1 {
+        font-size: 70px;
+
+    }
+
+    .aboutus-descript p {
+        font-size: 14px;
+    }
+
+    .aboutus-descript button {
+        padding: 10px 30px;
+        margin-top: 10px;
+    }
+
+    /*OUR TEAM AREA*/
+
+    .head {
+        margin-bottom: 50px;
+    }
+
+    .head h1 {
+        font-size: 50px;
+    }
+
+    .head img {
+        height: 300px;
+    }
+
+    .socialMedia ul li i {
+        color: var(--secondary-color);
+        font-size: 23px;
+    }
+
+    /*OUR WORKS AREA*/
+
+    .my-activity .lower-col button {
+        bottom: -20%;
+
+    }
+
+
+    .header h1 {
+        font-size: 50px;
+    }
+
+    .header img {
+        height: 300px;
+        margin: 60px 0px;
+    }
+
+    .box-act {
+        margin: 30px 30px;
+    }
+
+    .lower-col p {
+        top: -500%;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width: 890px) {
+
+    /* OUR WORKS AREA */
+    .img-activity {
+        height: 400px;
+        width: 400px;
+    }
+
+    .box-act {
+
+        margin-top: 30px;
+    }
+
+    /* LANDING PAGE AREA */
+
+    .landing-con {
+        text-align: center;
+        position: relative
+    }
+
+    .team-BG {
+        display: none;
+    }
+
+    #we {
+        font-weight: 900;
+        font-size: 40px;
+        position: absolute;
+        opacity: .3;
+        left: 5%;
+        top: 5%;
+    }
+
+    .landing-page::after {
+        left: -35%;
+    }
+
+    #team {
+        font-weight: 900;
+        font-size: 200px;
+        opacity: .3;
+    }
+
+    .title-more {
+        position: relative;
+    }
+
+    .responsive-team {
+        position: absolute;
+        top: 10%;
+        display: block;
+    }
+
+    .landing-logo {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+    }
+
+
+    #responsive-getStarted {
+        display: block;
+        padding: 5px 20px;
+        margin-top: 20px;
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 15px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid #212121;
+        color: var(--secondary-color);
+    }
+
+    #logo-react i {
+        font-size: 20px;
+    }
+
+    .landing-logo a {
+        text-decoration: none;
+    }
+
+
+    #our-goal {
+        position: absolute;
+        bottom: 30%;
+        text-align: justify;
+        color: var(--secondary-color);
+        display: block;
+        font-size: 13px;
+    }
+
+    .more {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .landing-page::after {
+        display: none;
+    }
+
+    .outer-blob {
+        display: none;
+
+    }
+
+    .landing-con {
+        width: 100%;
+        height: 100%;
+    }
+
+    .our-responsive-pic {
+        display: block;
+        width: 500px;
+        height: 500px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .inner-img {
+        position: relative;
+    }
+
+    .inner-img::after {
+        position: absolute;
+        content: '';
+        height: 50%;
+        width: 100%;
+        background: linear-gradient(0deg, var(--primary-color), transparent);
+        left: 0;
+        bottom: 18%;
+        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    .our-responsive-pic img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+    /* ABOUT US AREA */
+
+    .head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .head h1 {
+        font-size: 50px;
+        align-self: center;
+    }
+
+    .box-act {
+        margin: 20px 0px;
+    }
+
+    /* ACTIVITY AREA */
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities h5 {
+        top: -0.7%;
+
+    }
+
+    .header h1 {
+        margin-top: 160px;
+    }
+
+
+
+    /*FOOTER*/
+
+    .over-lap img {
+        height: 100px;
+
+    }
+
+
+    .over-lap .input-box {
+        width: 300px;
+margin-left: 12px;
+    }
+
+    .footer {
+        height: auto;
+        background-color: var(--footer-color);
+        opacity: 1;
+        width: 100%
+    }
+
+    .upper-footer {
+        height: 150px;
+        width: 100%;
+        position: relative;
+    }
+
+    .footer section {
+        padding: 20px 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    .box {
+        margin: 20px 50px;
+
+    }
+
+    .contacts .input-box {
+        width: 250px;
+    }
+
+}
+
+@media all and (max-width: 773px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .responsive-nav {
+        display: block;
+        position: relative;
+        width: 300px;
+    }
+
+    .responsive-nav i {
+        position: absolute;
+        right: 5%;
+        padding: 10px;
+        font-size: 30px;
+        z-index: 1200;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+
+    .responsive-nav #close {
+        display: none;
+    }
+
+    .dropdown-nav ul {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .dropdown-nav {
+        position: absolute;
+        padding: 20px 20px;
+        background-color: var(--primary-color);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: none;
+    }
+
+    .dropdown-nav ul li a {
+        color: var(--third-color);
+    }
+
+    .activeDropdown {
+        display: block;
+    }
+
+
+    /*   LANDING PAGE*/
+
+    #team {
+        font-weight: 900;
+        font-size: 150px;
+        opacity: .3;
+    }
+
+    .landing-logo h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #our-goal {
+        position: absolute;
+        bottom: 30%;
+        text-align: justify;
+        color: var(--secondary-color);
+        display: block;
+        font-size: 11px;
+    }
+
+    /*OUR WORKS*/
+    .header h1 {
+        margin-top: 160px;
+    }
+
+    /*FOOTER*/
+    .over-lap img {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 523px) {
+    .landing-logo h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 499px) {
+
+
+    /*LANDING PAGE*/
+    #our-goal {
+        position: absolute;
+        bottom: 25%;
+        text-align: justify;
+        color: var(--secondary-color);
+        display: block;
+        font-size: 11px;
+    }
+
+
+    #responsive-getStarted {
+        display: block;
+        padding: 5px 20px;
+        margin-top: 120px;
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 15px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid #212121;
+        color: var(--secondary-color);
+    }
+
+    /*OUR TEAM*/
+    .head h1 {
+        font-size: 30px;
+    }
+
+
+    /*OUR WOKS*/
+
+    .header img {
+        height: 200px;
+    }
+
+    /*FOOTER*/
+
+    .over-lap h1 {
+        font-size: 30px;
+    }
+
+    .input-box {
+        border: 1px solid;
+        display: flex;
+        height: 40px;
+        border: none;
+        background-color: blanchedalmond;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        width: 240px;
+    }
+}

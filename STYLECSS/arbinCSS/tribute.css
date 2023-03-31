@@ -1,0 +1,418 @@
+.container{
+    background-image: url(/IMAGESARBIN/teslalogo.gif);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 43%;
+    padding-right: 8%;
+    background: #f80404;
+    font-size: 100%;
+}
+
+
+
+.first-div{
+    position: absolute;
+    width: 1249px;
+    height: 454px;
+    left: calc(50% - 1249px/2 + 13.5px);
+    top: calc(50% - 454px/2 - 182px);
+
+    background: #08310e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.logo-1{
+    position: absolute;
+    width: 288px;
+    height: 251px;
+    left: 70px;
+    bottom: 150px;
+
+    background-image: url(/IMAGESARBIN/teslalogo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+}
+.logo-name1{
+    position: absolute;
+    width: 283px;
+    height: 43px;
+    left: 5px;
+    bottom: -75px;
+    border-radius: 50px;
+
+    background: #D9D9D9;
+}
+.logo-name1:hover{
+    position: absolute;
+    height: 50px;
+    left: 5px;
+    bottom: -75px;
+    border-radius: 50px;
+
+    background: #D9D9D9;
+}
+.logo-name1 p{
+    text-align: center;
+    font-size: medium;
+}
+.logo-2{   
+    position: absolute;
+    width: 288px;
+    height: 251px;
+    left: calc(50% - 280px/2 + 5px);
+    bottom: 150px;
+
+    background-image: url(/IMAGESARBIN/spacex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+}
+.logo-name2{
+    position: absolute;
+    width: 283px;
+    height: 43px;
+    left: 5px;
+    bottom: -75px;
+    border-radius: 50px;
+
+    background: #D9D9D9;
+}
+.logo-name2:hover{
+    position: absolute;
+    height: 50px;
+    left: 5px;
+    bottom: -75px;
+    border-radius: 50px;
+
+    background: #D9D9D9;
+}
+.logo-name2 p{
+    text-align: center;
+    font-size: medium;
+}
+.logo-3{   
+    position: absolute;
+    width: 288px;
+    height: 251px;
+    right: 70px;
+    bottom: 150px;
+    border-radius: 50px;
+
+    background-image: url(/IMAGESARBIN/twitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+}
+.logo-name3{
+    position: absolute;
+    width: 283px;
+    height: 43px;
+    right: 5px;
+    bottom: -75px;
+    border-radius: 50px;
+
+    background: #D9D9D9;
+}
+.logo-name3:hover{
+    position: absolute;
+    height: 50px;
+    right: 5px;
+    bottom: -75px;
+    border-radius: 50px;
+
+    background: #D9D9D9;
+}
+.logo-name3 p{
+    text-align: center;
+    font-size: medium;
+}
+.logo-1:hover{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    bottom: 150px;
+
+    background-image: url(/IMAGESARBIN/teslalogo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+}
+.logo-2:hover{
+    position: absolute;
+    height: 300px;
+    bottom: 150px;
+
+    background-image: url(/IMAGESARBIN/spacex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+}
+.logo-3:hover{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    right: 70px;
+    bottom: 150px;
+    border-radius: 50px;
+
+    background-image: url(/IMAGESARBIN/twitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+}
+.line-1{
+    position: absolute;
+    width: 1063px;
+    height: 0px;
+    left: 435px;
+    top: 400px;
+
+    border: 1px solid #000000;
+    transform: rotate(180deg);
+}
+.second-div{
+    /* Rectangle 2 */
+    position: absolute;
+    width: 1249px;
+    height: 480px;
+    left: calc(50% - 1249px/2 + 13.5px);
+    top: calc(50% - 480px/2 + 240px);
+
+    background: #1A2121;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content-1{
+    position: absolute;
+    width: 325px;
+    height: 401px;
+    left: 50px;
+    bottom: 40px;
+    border-radius: 20px;
+
+    background: #014696;
+}
+.pic-container1{
+    position: absolute;
+    width: 275px;
+    height: 340px;
+    left: 25px;
+    bottom: 40px;
+
+    background-image: url(/IMAGESARBIN/elon-tesla.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.pic-container1:hover{
+    position: absolute;
+    width: 275px;
+    height: 425px;
+    left: 25px;
+    bottom: 40px;
+
+    background-image: url(/IMAGESARBIN/elon-tesla.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.content-2{
+    position: absolute;
+    width: 325px;
+    height: 401px;
+    left: calc(50% - 340px/2 + 13.5px);
+    bottom: 40px;
+    border-radius: 20px;
+
+    background: #014696;
+}
+.pic-container2{
+    position: absolute;
+    width: 275px;
+    height: 340px;
+    left: calc(50% - 300px/2 + 13.5px);
+    bottom: 40px;
+
+    background-image: url(/IMAGESARBIN/elon-spacex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pic-container2:hover{
+    position: absolute;
+    width: 275px;
+    height: 425px;
+    left: calc(50% - 300px/2 + 13.5px);
+    bottom: 40px;
+
+    background-image: url(/IMAGESARBIN/elon-spacex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-3{
+    position: absolute;
+    width: 325px;
+    height: 401px;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 20px;
+
+    background: #014696;
+}
+.pic-container3{
+    position: absolute;
+    width: 275px;
+    height: 340px;
+    right: 25px;
+    bottom: 40px;
+
+    background-image: url(/IMAGESARBIN/elontwitter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pic-container3:hover{
+    position: absolute;
+    width: 275px;
+    height: 425px;
+    right: 25px;
+    bottom: 40px;
+
+    background-image: url(/IMAGESARBIN/elontwitter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.third-div{
+    position: absolute;
+    width: 1500px;
+    height: 2000px;
+    left: calc(50% - 1500px/2 + 13.5px);
+    top: 850px;
+
+    background: #f80330;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.third-div{
+    text-align: center;
+}
+.elon-bio{
+    position: absolute;
+    width: 1249px;
+    height: 425px;
+    left: calc(50% - 1249px/2 + 13.5px);
+    top: 75px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio:hover{
+    position: absolute;
+    width: 1400px;
+    height: 425px;
+    left: calc(50% - 1400px/2 + 13.5px);
+    top: 75px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio p{
+    text-transform: none;
+    text-align: center;
+    font-size: 25px;
+}
+.elon-bio2{
+    position: absolute;
+    width: 1249px;
+    height: 425px;
+    left: calc(50% - 1249px/2 + 13.5px);
+    top: 550px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio2:hover{
+    position: absolute;
+    width: 1400px;
+    height: 425px;
+    left: calc(50% - 1400px/2 + 13.5px);
+    top: 550px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio2 p{
+    text-transform: none;
+    text-align: center;
+    font-size: 21px;
+}
+.elon-bio3{
+    position: absolute;
+    width: 1249px;
+    height: 425px;
+    left: calc(50% - 1249px/2 + 13.5px);
+    top: 1030px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio3:hover{
+    position: absolute;
+    width: 1400px;
+    height: 425px;
+    left: calc(50% - 1400px/2 + 13.5px);
+    top: 1030px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio3 p{
+    text-transform: none;
+    text-align: center;
+    font-size: 21px;
+}
+.elon-bio4{
+    position: absolute;
+    width: 1249px;
+    height: 425px;
+    left: calc(50% - 1249px/2 + 13.5px);
+    top: 1510px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio4:hover{
+    position: absolute;
+    width: 1400px;
+    height: 425px;
+    left: calc(50% - 1400px/2 + 13.5px);
+    top: 1510px;
+
+    background: whitesmoke;
+    box-shadow: 0px 10px 50px;
+    border-radius: 10px;
+}
+.elon-bio4 p{
+    text-transform: none;
+    text-align: center;
+    font-size: 21px;
+}

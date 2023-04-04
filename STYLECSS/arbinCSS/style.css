@@ -6,7 +6,7 @@
     text-decoration: underline;
 }
 body{
-    background-image: url("/IMAGESARBIN/arvz.gif");
+    background-image: url("../images/arvz.gif");
     font-family: system-ui;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,7 +41,7 @@ body{
 .hero{
     position: relative;
     margin-top: -75px;
-    background-image: url("/IMAGESARBIN/welcome.gif");
+    background-image: url("../images/welcome.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -129,7 +129,7 @@ nav ul li a:hover{
 .cover-picture{
     height: 250px;
     width: 80%;
-    background-image: url("/IMAGESARBIN/cpc.jpg");
+    background-image: url("/images/cpc.jpg");
     background-size: cover;
     border-top-right-radius: 35px;
     border-top-left-radius: 35px;
@@ -139,7 +139,7 @@ nav ul li a:hover{
 }
 .cover-picture:hover{
     height: 350px;
-    background-image: url("/IMAGESARBIN/cpc.jpg");
+    background-image: url("/images/cpc.jpg");
     background-size: cover;
     border-top-right-radius: 35px;
     border-top-left-radius: 35px;

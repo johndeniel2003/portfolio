@@ -1,0 +1,97 @@
+/*FOR RESUME AREA*/
+@media all and (max-width: 1440px){
+.profile-name h1{
+font-size: 20px;
+}
+
+    .profile-name h3{
+font-size: 12px;
+}
+
+.Education{
+width: 100%;
+height: 100%;
+padding: 10px 20px;
+position: relative;
+}
+
+.Education-timeline p{
+font-size: 14px;
+color: #fff;
+}
+
+    .sidebar .container h4{
+font-size: 14px;
+align-self: center;
+}
+
+}
+
+@media all and (max-width: 1310px){
+    .sidebar{
+width: 30%;
+height: 100%;
+}
+    .sidebar ul li{
+font-size: 14px;
+}
+
+    .sidebar h1{
+font-size: 20px;
+}
+
+.main-col{
+float: left;
+width: 65%;
+padding: 10px 20px;
+}
+
+    .main-first-col p, .experiences p{
+font-size: 14px;
+}
+
+    .experiences h3{
+font-size: 14px;
+}
+    
+
+    .container-skills{
+font-size: 14px;
+align-self: center;
+}
+
+    .main-col h1{
+font-size: 25px;
+}
+.footer{
+padding-top: 0px;
+}
+    .footer ul li{
+font-size: 16px;
+}
+}
+
+
+@media all and (max-width: 1290px){
+    .sidebar h1{
+font-size: 17px;
+}
+
+    .main-col h1{
+font-size: 20px;
+}
+
+.Education-timeline{
+position: relative;
+}
+
+.Education-timeline .box{
+padding: 6px;
+}
+
+    .Education-timeline p{
+font-size: 13px;
+}
+}
+
+
